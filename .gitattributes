@@ -1,0 +1,37 @@
+# =========================
+# Line Ending Normalization
+# =========================
+* text=auto eol=lf
+
+# =========================
+# Dart / Flutter
+# =========================
+*.dart      text
+*.yaml      text
+*.yml       text
+*.gradle    text
+*.properties text
+*.xml       text
+*.json      text
+*.md        text
+
+# =========================
+# Binary Files
+# =========================
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.ico  binary
+*.svg  binary
+*.mp4  binary
+*.jar  binary
+*.aab  binary
+*.apk  binary
+
+# =========================
+# Prevent Diff Noise
+# =========================
+*.lock -diff
+*.keystore -diff
